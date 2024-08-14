@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.logo {
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.left-section {
+    background-color: #7d7d7d;
+    color: white;
+    padding: 40px;
+    width: 40%;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.left-section .info, .left-section .about {
+    margin-bottom: 30px;
+}
+
+.left-section h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.right-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    width: 60%;
+}
+
+.product-card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.product-card p {
+    margin: 0;
+}
+
+.product-card p:nth-child(2) {
+    font-weight: 600;
+}
